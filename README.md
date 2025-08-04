@@ -146,4 +146,5 @@ Feedstock Maintainers
 =====================
 
 * [@MridulS](https://github.com/MridulS/)
+* [@scipp/ess-maintainers](https://github.com/orgs/scipp/teams/ess-maintainers/)
 
