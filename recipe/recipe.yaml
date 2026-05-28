@@ -27,10 +27,12 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
+    - dask >=2022.1.0
     - sciline >=25.11.0
-    - scipp >=25.04.0
-    - scippneutron >=25.11.1
+    - scipp >=26.3.1
+    - scippneutron >=26.5.0
     - scippnexus >=25.06.0
+    - scipy >=1.14
 
 tests:
   - python:
