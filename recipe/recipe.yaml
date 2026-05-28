@@ -28,6 +28,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - dask >=2022.1.0
+    - python-graphviz >= 0.20
     - sciline >=25.11.0
     - scipp >=26.3.1
     - scippneutron >=26.5.0
@@ -50,8 +51,8 @@ about:
   summary: Common data reduction tools for the ESS facility
   license: BSD-3-Clause
   license_file: LICENSE
-  repository: https://github.com/scipp/essreduce
-  homepage: https://scipp.github.io/essreduce/
+  repository: https://github.com/scipp/ess/tree/main/packages/essreduce
+  homepage: https://scipp.github.io/ess/reduce/
 
 extra:
   recipe-maintainers:
