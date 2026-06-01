@@ -1,6 +1,6 @@
 context:
   name: essreduce
-  version: "26.4.1"
+  version: "26.5.0"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/essreduce-${{ version }}.tar.gz
-  sha256: 4cdc8146f4552767986fa075f8f57493bbd1f2f5677cf0492b416d30bf0172f3
+  sha256: 0c7b5891101a796891719fe27a9d65866c41dfcc83cf402c165a4347ebd7b47d
 
 build:
   number: 0
@@ -27,10 +27,13 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
+    - dask >=2022.1.0
+    - python-graphviz >=0.20
     - sciline >=25.11.0
-    - scipp >=25.04.0
-    - scippneutron >=25.11.1
+    - scipp >=26.3.1
+    - scippneutron >=26.5.0
     - scippnexus >=25.06.0
+    - scipy >=1.14
 
 tests:
   - python:
@@ -48,8 +51,8 @@ about:
   summary: Common data reduction tools for the ESS facility
   license: BSD-3-Clause
   license_file: LICENSE
-  repository: https://github.com/scipp/essreduce
-  homepage: https://scipp.github.io/essreduce/
+  repository: https://github.com/scipp/ess/tree/main/packages/essreduce
+  homepage: https://scipp.github.io/ess/reduce/
 
 extra:
   recipe-maintainers:
