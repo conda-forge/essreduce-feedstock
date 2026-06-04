@@ -3,13 +3,13 @@ About essreduce-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/essreduce-feedstock/blob/main/LICENSE.txt)
 
-Home: https://scipp.github.io/essreduce/
+Home: https://scipp.github.io/ess/reduce/
 
 Package license: BSD-3-Clause
 
 Summary: Common data reduction tools for the ESS facility
 
-Development: https://github.com/scipp/essreduce
+Development: https://github.com/scipp/ess/tree/main/packages/essreduce
 
 Current build status
 ====================
