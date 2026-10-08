@@ -27,7 +27,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - dask >=2022.1.0
+    - dask-core >=2022.1.0
     - python-graphviz >=0.20
     - lazy-loader >=0.4
     - sciline >=25.11.0
@@ -40,6 +40,9 @@ tests:
   - python:
       imports:
         - ess
+        - ess.reduce
+        - ess.reduce.nexus
+        - ess.reduce.unwrap
       pip_check: true
       python_version:
         - ${{ python_min }}.*
