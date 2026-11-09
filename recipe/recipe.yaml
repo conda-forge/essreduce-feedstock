@@ -1,6 +1,6 @@
 context:
   name: essreduce
-  version: "26.10.1"
+  version: "26.11.0"
   python_min: "3.12"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/essreduce-${{ version }}.tar.gz
-  sha256: e66f63bd07b60f19d2bd468b278bc1edb7b6985b4f97a028276d72c39cbfc814
+  sha256: 721ad309ccc64f1468dd828a61157078716eb98a47025a5535692652f3f55f21
 
 build:
   number: 0
