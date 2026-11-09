@@ -33,7 +33,7 @@ requirements:
     - sciline >=25.11.0
     - scipp >=26.3.1
     - scippneutron >=26.6.0
-    - scippnexus >=25.06.0
+    - scippnexus >=26.1.0
     - scipy >=1.14
 
 tests:
